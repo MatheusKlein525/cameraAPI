@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Filtros de Câmera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Filtros de Câmera</h1>
+
+    <video id="camera" autoplay playsinline></video>
+
+    <div>
+        <button onclick="filtro('grayscale(100%)')">Preto e Branco</button>
+        <button onclick="filtro('sepia(100%)')">Sépia</button>
+        <button onclick="filtro('invert(100%)')">Inverter Cores</button>
+        <button onclick="filtro('blur(5px)')">Desfocar</button>
+        <button onclick="filtro('none')">Remover Filtro</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
